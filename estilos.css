@@ -1,6 +1,7 @@
 body{
     background-color: #D8D9D7;
 }
+/*todo lo referente al header*/
 .menu{
     display: flex;
     align-items: center;
@@ -25,7 +26,7 @@ body{
 }
 
 
-/*todo lo rererente al footer*/
+/*todo lo referente al footer*/
 .footer {
     position: fixed;
     bottom: 0;
