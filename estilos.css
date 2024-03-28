@@ -20,11 +20,64 @@ body{
 }
 /*Todo lo referente al contenido*/
 .contenido{
-    background-color: #ffffff;
+    background-color: #D8D9D7;
     display: flex;
     flex-direction: column;
 }
+.contenidoLogin{
+        background-color: #D8D9D7;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;;
+}
+.formularioLogin{
+        background-color: #048ABF;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 5px;
+        min-width: 300px;
+}
+.formularioLogin img{
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
+.imgLogin{
+    margin-bottom: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contenedorDatos{
+    font-display: flex;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.campoDatos{
+    display: flex;
+    margin-top: 10px;
+    border-radius: 3px;
+    border-style: none;
+    justify-content: center;
+    flex-direction: row;
+}
+.boton{
+    display:flex;
+    flex-direction: row;
+    margin-top: 30px;
+    border-radius: 3px;
+    border-style: none;
+    justify-content: center;
 
+}
+.boton button{
+    background-color: #0378A6;
+    color: #ffffff;
+    border-style: none;
+}
 
 /*todo lo referente al footer*/
 .footer {
